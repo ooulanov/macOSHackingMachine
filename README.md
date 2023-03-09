@@ -44,3 +44,10 @@ Run installer and follow the instructions or use homebrew to install nmap:\
 ![image](https://user-images.githubusercontent.com/127116376/223960989-87cf1167-a3dd-441d-867e-0cfe9372eb0e.png)\
 Previous version is available over the internet, so I will publish it here (look for files).\
 ![image](https://user-images.githubusercontent.com/127116376/223968535-920737e3-87a8-4015-84e3-3f3d1dd26869.png)
+### Installing JamWiFI
+JamWiFi allows to deauth clients from APs. This can be used to sniff handshakes. Installation is very simple - download JamWiFi from this repo, install it and run. After that you can select AP and deauth clients.\
+![Снимок экрана 2023-03![Снимок экрана 2023-03-09 в 12 48 40](https://user-images.githubusercontent.com/127116376/223984992-ea01d3c4-8cc9-41ec-b2c6-59cb6af32f4d.png)
+-09 в 12 48 32](https://user-images.githubusercontent.com/127116376/223984852-b7a6fb38-9c06-4586-a8aa-004ad07b8dff.png)
+Notice: macOS status bar will also display eye icon above Wi-Fi icon which means monitor mode is active. It will also display information about channels.
+![Снимок экрана 2023-03-09 в 12 49 06](https://user-images.githubusercontent.com/127116376/223985342-ca5dfef3-811d-44ec-876d-47df9fb92836.png)
+
