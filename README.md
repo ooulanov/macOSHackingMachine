@@ -48,6 +48,6 @@ Previous version is available over the internet, so I will publish it here (look
 JamWiFi allows to deauth clients from APs. This can be used to sniff handshakes. Installation is very simple - download JamWiFi from this repo, install it and run. After that you can select AP and deauth clients.\
 ![Снимок экрана 2023-03![Снимок экрана 2023-03-09 в 12 48 40](https://user-images.githubusercontent.com/127116376/223984992-ea01d3c4-8cc9-41ec-b2c6-59cb6af32f4d.png)
 -09 в 12 48 32](https://user-images.githubusercontent.com/127116376/223984852-b7a6fb38-9c06-4586-a8aa-004ad07b8dff.png)\
-Notice: macOS status bar will also display eye icon above Wi-Fi icon which means monitor mode is active. It will also display information about channels.
+Notice: macOS status bar will also display eye icon above Wi-Fi icon which means monitor mode is active. It will also display information about channels.\
 ![Снимок экрана 2023-03-09 в 12 49 06](https://user-images.githubusercontent.com/127116376/223985342-ca5dfef3-811d-44ec-876d-47df9fb92836.png)
 
