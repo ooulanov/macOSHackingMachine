@@ -19,5 +19,5 @@ Now we can sniff traffic using en1 by running `sudo airport en1 -s` command.
 CLI-tools required to build many other tools. If you already have XCode installed, skip this step, if not, then you need to install the utility by executing `xcode-select --install`.
 ## Installing tools
 ### Installing macchanger
-Macchanger helps you to stay anonymous, so to install it run `sudo sh -c "curl https://github.com/ooulanov/macOSHackingMachine/blob/main/macchanger/macchanger.sh > /usr/local/bin/macchanger && chmod +x /usr/local/bin/macchanger"`
+Macchanger helps you to stay anonymous, so to install it run `sudo sh -c "curl -JL https://raw.githubusercontent.com/ooulanov/macOSHackingMachine/main/macchanger/macchanger.sh > /usr/local/bin/macchanger && chmod +x /usr/local/bin/macchanger"`
 ### Installing Metasploit
