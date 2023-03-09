@@ -51,7 +51,7 @@ JamWiFi allows to deauth clients from APs. This can be used to sniff handshakes.
 Notice: macOS status bar will also display eye icon above Wi-Fi icon which means monitor mode is active. It will also display information about channels.\
 ![Снимок экрана 2023-03-09 в 12 49 06](https://user-images.githubusercontent.com/127116376/223985342-ca5dfef3-811d-44ec-876d-47df9fb92836.png)
 ### Installing hping3
-Just run brew install hping3
+Just run brew install `hping3` and run this command to add the path `PATH=$PATH:/usr/local/sbin`
 ## TODO LIST:
 1. Instructions for ettercap, aircrack, hashcat etc
 2. Buid universal script for automatic installation all of these tools.
