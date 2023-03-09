@@ -20,6 +20,6 @@ CLI-tools required to build many other tools. If you already have XCode installe
 ## Installing tools
 ### Installing macchanger
 Macchanger helps you to stay anonymous, so to install it run: `sudo sh -c "curl -JL https://raw.githubusercontent.com/ooulanov/macOSHackingMachine/main/macchanger/macchanger.sh > /usr/local/bin/macchanger && chmod +x /usr/local/bin/macchanger"`
-![3](https://user-images.githubusercontent.com/127116376/223948495-2e050a21-d552-41ea-a833-83f3f24015de.png)
+![3](https://user-images.githubusercontent.com/127116376/223948495-2e050a21-d552-41ea-a833-83f3f24015de.png)\
 WARNING! This will not work with en1 (created earlier), because airport driver doesn't support changing MAC!
 ### Installing Metasploit
