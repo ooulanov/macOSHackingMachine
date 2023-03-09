@@ -7,6 +7,9 @@ Setting up a hacking macOS machine. Monitor mode, ettercap, macchanger, aircrack
 3. Everything was tested on macOS Monterey
 
 ## Basic steps
+### Installing homebrew
+Homebrew helps a lot with installation additional tools. To install just run\
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 ### Enabling monitor mode
 Monitoring mode is necessary if you want to engage in pentest Wi-Fi networks, sniff traffic and perform other attacks. So to enable it you need to open terminal and run command below. My Wi-Fi interface is en0, so after execution this command, new intarface (in my case en1) will appear.\
 `
@@ -33,3 +36,9 @@ Then we have to run msfconsole and proceed changes (answer yes after running thi
 `/opt/metasploit-framework/bin/msfconsole`\
 After that we will have installed Metasploit!\
 ![image](https://user-images.githubusercontent.com/127116376/223950538-f2a37d51-3393-40eb-88d1-0825c2eab03b.png)
+### Installing Nmap
+Download installer from here (official website): https://nmap.org/download.html#macosx
+Run installer and follow the instructions or use homebrew to install nmap:\
+`brew install nmap`\
+![image](https://user-images.githubusercontent.com/127116376/223960989-87cf1167-a3dd-441d-867e-0cfe9372eb0e.png)\
+WARNING: nmap 7.93 on macOS shows openssl error, you should specify nmap version to 7.92 during installation or ignore error.
