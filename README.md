@@ -37,8 +37,10 @@ Then we have to run msfconsole and proceed changes (answer yes after running thi
 After that we will have installed Metasploit!\
 ![image](https://user-images.githubusercontent.com/127116376/223950538-f2a37d51-3393-40eb-88d1-0825c2eab03b.png)
 ### Installing Nmap
-Download installer from here (official website): https://nmap.org/download.html#macosx
+Download installer from here (official website): https://nmap.org/download.html#macosx \
+WARNING: nmap 7.93 on macOS shows openssl error, you should specify nmap version to 7.92 during installation or ignore error.\
 Run installer and follow the instructions or use homebrew to install nmap:\
 `brew install nmap`\
 ![image](https://user-images.githubusercontent.com/127116376/223960989-87cf1167-a3dd-441d-867e-0cfe9372eb0e.png)\
-WARNING: nmap 7.93 on macOS shows openssl error, you should specify nmap version to 7.92 during installation or ignore error.
+Previous version is available over the internet, so I will publish it here (look for files).\
+![image](https://user-images.githubusercontent.com/127116376/223968535-920737e3-87a8-4015-84e3-3f3d1dd26869.png)
