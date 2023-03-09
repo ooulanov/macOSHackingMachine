@@ -16,10 +16,20 @@ sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Curre
 Now we can sniff traffic using en1 by running `sudo airport en1 -s` command.
 ![2](https://user-images.githubusercontent.com/127116376/223939358-fd81447d-1213-45b0-8e81-748cc87b8fd1.png)
 ### Installing CLI-tools
-CLI-tools required to build many other tools. If you already have XCode installed, skip this step, if not, then you need to install the utility by executing `xcode-select --install`.
+CLI-tools required to build many other tools. If you already have XCode installed, skip this step, if not, then you need to install the utility by executing\
+`xcode-select --install`.
 ## Installing tools
 ### Installing macchanger
-Macchanger helps you to stay anonymous, so to install it run: `sudo sh -c "curl -JL https://raw.githubusercontent.com/ooulanov/macOSHackingMachine/main/macchanger/macchanger.sh > /usr/local/bin/macchanger && chmod +x /usr/local/bin/macchanger"`
+Macchanger helps you to stay anonymous, so to install it run:\
+`sudo sh -c "curl -JL https://raw.githubusercontent.com/ooulanov/macOSHackingMachine/main/macchanger/macchanger.sh > /usr/local/bin/macchanger && chmod +x /usr/local/bin/macchanger"`
 ![3](https://user-images.githubusercontent.com/127116376/223948495-2e050a21-d552-41ea-a833-83f3f24015de.png)\
 WARNING! This will not work with en1 (created earlier), because airport driver doesn't support changing MAC!
 ### Installing Metasploit
+I have took an instruction from the official site:\
+`curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+  ./msfinstall`\
+Then we have to run msfconsole and proceed changes (answer yes after running this):\
+`/opt/metasploit-framework/bin/msfconsole`\
+After that we will have installed Metasploit!\
+![image](https://user-images.githubusercontent.com/127116376/223950538-f2a37d51-3393-40eb-88d1-0825c2eab03b.png)
